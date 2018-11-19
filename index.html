@@ -1,7 +1,11 @@
 <DOCTYPE html>
 <html>
 <head>
+  <title>Vezba</title>
   <style>
+  body {
+    background-color: #bfff80;
+  }
     ul {
       background-color: red;
       overflow: hidden;
@@ -14,21 +18,65 @@
     a {
       color: white;
       text-decoration: none;
+      font-size: 19px;
     }
     a:hover {
       color: black;
     }
+   h1, p {
+     text-align: center;
+   }
+   .as {
+     display: block;
+     margin: auto;
+   }
+   h1 {
+     color: red;
+     font-size: 48px;
+   }
+   .drugideo {
+     background-image: url(slika.jpg);
+     background-size: cover;
+     width: 100%;
+     height: 350px;
+     margin-top: 40px;
+   }
+   h2 {
+     color: white;
+     text-align: center;
+     padding-top: 130px;
+     font-size: 44px;
+   }
   </style>
 </head>
 <body>
+  <!--<header>
   <ul>
-    <li><a href="">Strana1</a></li>
-    <li><a href="">Strana2</a></li>
-    <li><a href="">Strana3</a></li>
+    <li><a href="https://dusanrandjelovic.000webhostapp.com">Strana1</a></li>
+    <li><a href="https://informalnoucenje.000webhostapp.com" target="_blank">Strana2</a></li>
+    <li><a href="https://prirodnjackicentarsumarak.000webhostapp.com">Strana3</a></li>
   </ul>
-  <h1>Naslov</h1>
-    <p>Tekst</p>
-    <img src="slika.jpg" alt="opis slike">
+</header>-->
+<header>
+  <img src="" height="50">
+  <h3>Ime i Prezime</h3>
 
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="photo.html">Contact</a>
+  </nav>
+</header>
+  <h1>Dusan Randjelovic</h1>
+    <p><strong>Ucim HTML i CSS<strong></p>
+    <img src="slika.jpg" alt="opis slike" height="500px" width="590px" class="as">
+
+    <div class="drugideo">
+       <h2>Tekst preko slike</h2>
+    </div>
+<footer>
+  <p>&copy; Dusan Randjelovic</p>
+</footer>
 </body>
 </html>
