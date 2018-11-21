@@ -1,0 +1,73 @@
+p {
+  color: white;
+  font-size: 18px;
+}
+body {
+  background-color: DarkGray;
+  font-family: Monospace;
+  margin: 0;
+}
+  ul {
+    background-color: red;
+    overflow: hidden;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    padding: 20px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  a:hover {
+    color: black;
+  }
+ h1, h4 {
+   text-align: center;
+ color: white;
+ letter-spacing: 0.02em;
+ }
+ .as {
+   display: block;
+   margin: auto;
+ }
+ .as:hover {
+   opacity: 0.8;
+ }
+ h1 {
+   font-size: 48px;
+ }
+ h4 {
+   font-size: 20px;
+ }
+ .drugideo {
+   background-image: url(slika2.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 350px;
+   margin-top: 40px;
+ }
+ h2 {
+   color: white;
+   text-align: center;
+   padding-top: 130px;
+   font-size: 44px;
+ }
+ h3 {
+   color: white;
+ }
+ header, footer {
+   background-color: #f5f5f0;
+   overflow: auto; /*da ima veci prostor odmah bez padding*/
+ }
+ footer p {
+   color: black;
+ }
+ header h3 {
+   color: black;
+ }
+ .crvena {
+   color: red;
+ }
