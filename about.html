@@ -4,7 +4,22 @@
   <title>About</title>
   <link rel="stylesheet" href="style.css">
     <style>
-
+    .sl {
+      padding-left: 47%;
+    }
+    .relativno {
+      position: relative;
+      display: inline-block;
+    }
+    span {
+      position: absolute;
+      right: -98px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      border: 1px solid white;
+      padding: 4px;
+    }
   </style>
 </head>
 <body>
@@ -16,8 +31,7 @@
   </ul>
 </header>-->
 <header>
-  <img src="ja.jpg" height="50">
-  <h3>Dusan Randjelovic</h3>
+  <h3><img src="ja.jpg" height="50">Dusan Randjelovic</h3>
 
   <nav>
     <a href="index.html">&#9820; Home</a>
@@ -27,8 +41,32 @@
 	<a href="contact.html">&#9993; Contact</a>
   </nav>
 </header>
-  <h1>About</h1>
+  <h1 class="naslov">About</h1>
   <h2>Ko je Dusan</h2>
+  <div class="relativno">
+    <span>X</span>
+  <img src="slika2.jpg" height="140" class="sl">
+</div>
+  <main>
+  <div class="kol">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+	<div class="kol">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+
+  </main>
+  <div class="pozadina">
+	  <p style="text-align: center; padding-top: 8%; color: black; font-size: 20px;"><b>Tekst preko slike</b></p>
+	</div>
 <footer>
   <p>&copy; Dusan Randjelovic</p>
 </footer>

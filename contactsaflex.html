@@ -4,76 +4,44 @@
   <title>Contact</title>
   <link rel="stylesheet" href="style.css">
   <style>
-  /*  main {
-    /*height: 100vh;
-  }  jedan nacin za footer dole*/
-  body {
-    /*margin-bottom: 40px;  da footer ne preklapa body, body gurnemo od dole malo vise od velicine footera*/
-  }
 
-    /*body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  main {
-    flex: 1; ovo mi ne radi*/
-  }
-  footer {
-    /*position: fixed;*/ /*lepi za ekran, absolute lepi za stranicu, relative referentni okvir za absolute. Element sa absolute u svoj referentni okvir
-    moze ide gde hoce sa top, left, right, bottom */
-    /*bottom: 0;
-    width: 100%;*/
-  }
-/*  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  .fl {
-    flex: 1;
-  }     ovo mi ne radi*/
-
-  /*footer {
-    position: fixed; fiksira za ekran. a absolute za stranicu fiksira
-    bottom: 0;
-    width: 100%;
-  }*/
   * {
     box-sizing: border-box;
   }
   form {
    background: white;
    padding: 4%;
-   width: 38%;
-   display: block;
+   flex-direction: column;
+   display: flex;
+   width: 56%;
    margin: 70px auto;
-   height: 498px;
-  }
+ }
+ form div {
+   display: flex;
+   margin: 1%;
+ }
   label {
     font-size: 14px;
     width: 50%;
-    float: left;
-    margin-bottom: 14px;
+  color: green;
   }
   input, textarea, select {
     width: 50%;
-    border: 1px solid black;
+    border: 2px solid green;
     border-radius: 4%;
-    float: left;
-    padding: 9px;
-    margin-bottom: 14px;
+    color: green;
   }
 button {
-  float: right;
-  margin-top: 30px;
-  padding: 10px;
   border-radius: 6%;
-    border: 1px solid black;
+    border: 2px solid green;
+    padding: 6px;
+    background: green;
+    color: white;
 }
-h1:hover {
-  color: red;
+.flex-right {
+  justify-content: flex-end;
 }
+
   </style>
 </head>
 <body>
@@ -86,7 +54,7 @@ h1:hover {
     <a href="about.html">&#10070; About</a>
     <a href="photo.html">&#9861; Photo Gallery</a>
     <a href="blog.html">&#10004; Blog</a>
-	<a href="contact.html">&#9993; Contact</a>
+  <a href="contact.html">&#9993; Contact</a>
   </nav>
 </header>
 
@@ -96,55 +64,48 @@ h1:hover {
 <form method="post" action="https://formspree.io/your@email.com">
 
   <h3 style="color: black"><b>Upisite vase podatke</b> da popunite ovu formu:</h3>
-  <br>
-  <br>
 
+<div>
   <label for="ime">Ime i prezime: </label>
  <input id="ime" name="ime" minlength="5" required> <!--for i id povezani, name mi stize u mail sa poruku-->
-<br>
-<br>
+</div>
 
-
+<div>
  <label for="telefon">Telefon: </label>
  <input id="telefon" minlength="6" maxlength="20" name="Telefon" placeholder="+381" required>
+</div>
 
- <br>
- <br>
-
+<div>
  <label for="email">email: </label>
  <input id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="email" name="mail" required > <!--type email da ima monkey, pattern
    gleda kompletni mail-->
-   <br>
-   <br>
+ </div>
 
-
+<div>
   <label for="jezik">Izaberite jezik</label>
 <select name="jezik" id="jezik">
   <option value="1">JavaScript</option>
   <option value="1">Java</option>
   <option value="1">C++</option>
 </select>
-<br>
-<br>
+</div>
 
-
+<div>
   <label for="komentar">Vas komentar: </label>
-  <textarea id="komentar" name="komentar">Upisite Vas komentar
-  </textarea>
-  <br>
-  <br>
+  <textarea id="komentar" name="komentar" placeholder="Upisite Vas komentar"></textarea>
+</div>
 <br>
   <!-- <div>
     <label for="uslovi">Uslovi koristenja</label>
     <input name="uslovi" id="uslovi" type="checkbox">Prihvatam uslove koristenja</textarea>
   </div> -->
 
+<div class="flex-right">
  <button>Posalji</button>
+</div>
 
   </form>
 
-
-<a href="contactsaflex.html" target="_blank"><h1>Forma sa flex-om</h1></a>
 
 
 <footer>

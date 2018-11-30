@@ -1,0 +1,315 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>Blog flex</title>
+
+  <style>
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background: green;
+}
+a {
+  color: white;
+  display: block;
+  padding: 5px 9px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+ h3 {
+  color: white;
+}
+.pad {
+  padding-left: 2%;
+}
+h1 {
+  margin-left: 3%;
+}
+footer {
+  background: green;
+  color: white;
+  min-height: 4%;
+  padding: 1%;
+  text-align: center;
+}
+  @media (min-width: 600px) {
+    header {
+      text-align: center;
+    }
+    a {
+      display: inline-block;
+      border: none;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 2%;
+   }
+    article {
+      border: 1px solid black;
+      padding: 1%;
+      margin: 1%;
+      width: 45%;
+    }
+    main2 {
+      display: flex;
+      flex-direction: row;
+   }
+    article2 {
+      border: 1px solid black;
+      margin: 1%;
+      padding: 1%;
+    }                      /* ako hocu cetiri kolone*/
+main3 {
+   display: flex;
+   flex-direction: row;
+}
+article3 {
+  border: 1px solid black;
+  padding: 1%;
+  margin: 1%;
+}                      /* ako hocu tri kolone*/
+  }
+  </style>
+</head>
+<body>
+
+<header>
+  <h3><img src="ja.jpg" height="50"><span class="pad">Dusan Randjelovic</span></h3>
+
+  <nav>
+     <a href="index.html">&#9820; Home</a>
+    <a href="about.html">&#10070; About</a>
+    <a href="photo.html">&#9861; Photo Gallery</a>
+    <a href="blog.html">&#10004; Blog</a>
+	<a href="contact.html">&#9993; Contact</a>
+  </nav>
+</header>
+
+<h1>Blog</h1>
+<main>
+<article>
+  <h2>What is Lorem Ipsum?</h2>
+  <img src="slika2.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and
+    a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+     sometimes on purpose (injected humour and the like).</p>
+  <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+     consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+     Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+      This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32.</p>
+
+</article>
+
+<article>
+  <h2>Where does it come from?</h2>
+  <img src="slika3.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+      making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+      and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like).</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</article>
+
+<article>
+  <h2>Where can I get some?</h2>
+  <img src="slika4.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and
+    a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+     sometimes on purpose (injected humour and the like).</p>
+
+</article>
+
+<article>
+  <h2>Where does it come from?</h2>
+  <img src="slika3.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+      making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+      and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like).</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</article>
+</main>
+
+<h1>Blog</h1>
+<main2>
+<article2>
+  <h2>What is Lorem Ipsum?</h2>
+  <img src="slika2.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and
+    a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+     sometimes on purpose (injected humour and the like).</p>
+  <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+     consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+     Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+      This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32.</p>
+
+</article2>
+
+<article2>
+  <h2>Where does it come from?</h2>
+  <img src="slika3.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+      making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+      and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like).</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</article2>
+
+<article2>
+  <h2>Where can I get some?</h2>
+  <img src="slika4.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and
+    a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+     sometimes on purpose (injected humour and the like).</p>
+
+</article2>
+
+<article2>
+  <h2>Where does it come from?</h2>
+  <img src="slika3.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+      making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+      and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like).</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</article2>
+</main2>
+
+<h1>Blog</h1>
+<main3>
+<article3>
+  <h2>What is Lorem Ipsum?</h2>
+  <img src="slika2.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and
+    a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+     sometimes on purpose (injected humour and the like).</p>
+  <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+     consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+     Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+      This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+      amet..", comes from a line in section 1.10.32.</p>
+
+</article3>
+
+<article3>
+  <h2>Where does it come from?</h2>
+  <img src="slika3.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+      making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+      and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like).</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+</article3>
+
+<article3>
+  <h2>Where can I get some?</h2>
+  <img src="slika4.jpg" height="200px" width="200px">
+  <p><strong><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em></strong></p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+    specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+    making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and
+    a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+     sometimes on purpose (injected humour and the like).</p>
+
+</article3>
+</main3>
+
+<footer>
+  <p>&copy; Dusan Randjelovic</p>
+</footer>
+</body>
+</html>
